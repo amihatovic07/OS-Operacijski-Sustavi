@@ -1,0 +1,1631 @@
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git$ git clone https://github.com/amihatovic07/OS-Operacijski-Sustavi/tree/main/OS-zadace
+Cloning into 'OS-zadace'...
+fatal: repository 'https://github.com/amihatovic07/OS-Operacijski-Sustavi/tree/main/OS-zadace/' not found
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git$ git clone https://github.com/amihatovic07/OS-Operacijski-Sustavi/tree/main
+Cloning into 'main'...
+fatal: repository 'https://github.com/amihatovic07/OS-Operacijski-Sustavi/tree/main/' not found
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git$ git clone https://github.com/amihatovic07/OS-Operacijski-Sustavi.git
+Cloning into 'OS-Operacijski-Sustavi'...
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (8/8), done.
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git$ ls
+OS-Operacijski-Sustavi
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git$ cd OS-Operacijski-Sustavi/
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi$ ls
+OS-zadace
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi$ cd OS-zadace/
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace$ mkdir vjezba2
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace$ cd vjezba2/
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ touch vjezba_2.txt
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ ls
+vjezba_2.txt
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace$ cd vjezba2
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ mkdir vjezba_2/data
+mkdir: cannot create directory ‘vjezba_2/data’: No such file or directory
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ pwd
+/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ pwd
+/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ ls
+vjezba_2.txt
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ mkdir -p vjezba_2/data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ mkdir -p vjezba_2/backup
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ ls
+vjezba_2  vjezba_2.txt
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ cd vjezba_2
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ ls
+backup  data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cd data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ ls
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ pwd
+/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ touch script.js style.css .env
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ ls -la
+total 0
+drwxrwxrwx 1 alexa alexa 4096 Mar 23 23:57 .
+drwxrwxrwx 1 alexa alexa 4096 Mar 23 23:54 ..
+-rwxrwxrwx 1 alexa alexa    0 Mar 23 23:57 .env
+-rwxrwxrwx 1 alexa alexa    0 Mar 23 23:57 script.js
+-rwxrwxrwx 1 alexa alexa    0 Mar 23 23:57 style.css
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ echo "console.log("Hello, world!") > script.js
+-bash: !": event not found
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ echo "console.log("Hello, World!")" > script.js
+-bash: !": event not found
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ echo "console.log(`Hello, World!`)" > script.js
+-bash: !`: event not found
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ echo "console.log('Hello, World!') > script.js
+-bash: !': event not found
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ echo "console.log('Hello, World!')" > script.js
+-bash: !': event not found
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ echo 'console.log("Hello, World!")' > script.js
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ echo 'body { background-color: #f0f0f0; }' > style.css
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ echo 'VJEZBE=OS' > .env
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cat script.js
+console.log("Hello, World!")
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cat style.css
+body { background-color: #f0f0f0; }
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cat .env
+VJEZBE=OS
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cp data/* backup
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cd data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cd backup/
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/backup$ ls -la
+total 0
+drwxrwxrwx 1 alexa alexa 4096 Mar 24 00:07 .
+drwxrwxrwx 1 alexa alexa 4096 Mar 23 23:54 ..
+-rwxrwxrwx 1 alexa alexa   29 Mar 24 00:07 script.js
+-rwxrwxrwx 1 alexa alexa   36 Mar 24 00:07 style.css
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/backup$ ls -a
+.  ..  script.js  style.css
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/backup$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ ls
+backup  data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cd data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cp -a . ../backup
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cd backup/
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/backup$ ls -a
+.  ..  .env  script.js  style.css
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/backup$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cd data/
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ ls -a
+.  ..  .env  script.js  style.css
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ ls -av ../backup
+.  ..  .env  script.js  style.css
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ ls -laSv ../backup
+total 0
+drwxrwxrwx 1 alexa alexa 4096 Mar 23 23:57 .
+drwxrwxrwx 1 alexa alexa 4096 Mar 23 23:54 ..
+-rwxrwxrwx 1 alexa alexa   10 Mar 24 00:04 .env
+-rwxrwxrwx 1 alexa alexa   29 Mar 24 00:02 script.js
+-rwxrwxrwx 1 alexa alexa   36 Mar 24 00:03 style.css
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ ls -laS ../backup
+total 0
+drwxrwxrwx 1 alexa alexa 4096 Mar 23 23:57 .
+drwxrwxrwx 1 alexa alexa 4096 Mar 23 23:54 ..
+-rwxrwxrwx 1 alexa alexa   36 Mar 24 00:03 style.css
+-rwxrwxrwx 1 alexa alexa   29 Mar 24 00:02 script.js
+-rwxrwxrwx 1 alexa alexa   10 Mar 24 00:04 .env
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ rm -iv ./
+rm: cannot remove './': Is a directory
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ rm -iv
+rm: missing operand
+Try 'rm --help' for more information.
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ rm -iv data/*
+rm: remove regular file 'data/script.js'? y
+removed 'data/script.js'
+rm: remove regular file 'data/style.css'? y
+removed 'data/style.css'
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cd data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ ls -a
+.  ..  .env
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cp -laS ../backup
+cp: missing file operand
+Try 'cp --help' for more information.
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cp -las data/* ../backup
+cp: cannot make both hard and symbolic links
+Try 'cp --help' for more information.
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cp -laS data/* backup
+cp: missing destination file operand after 'backup'
+Try 'cp --help' for more information.
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ ls
+backup  data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cd data/
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cp -avn ../backup/. .
+cp: warning: behavior of -n is non-portable and may change in future; use --update=none instead
+'../backup/./script.js' -> '././script.js'
+'../backup/./style.css' -> '././style.css'
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ ls -ltA
+total 0
+-rwxrwxrwx 1 alexa alexa 10 Mar 24 00:04 .env
+-rwxrwxrwx 1 alexa alexa 36 Mar 24 00:03 style.css
+-rwxrwxrwx 1 alexa alexa 29 Mar 24 00:02 script.js
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ ls -ltA1
+total 0
+-rwxrwxrwx 1 alexa alexa 10 Mar 24 00:04 .env
+-rwxrwxrwx 1 alexa alexa 36 Mar 24 00:03 style.css
+-rwxrwxrwx 1 alexa alexa 29 Mar 24 00:02 script.js
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ tree
+.
+├── script.js
+└── style.css
+
+1 directory, 2 files
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ history
+    1  wsl --list
+    2  --list
+    3  exit
+    4  echo $0
+    5  pwd
+    6  ls
+    7  ls desktop
+    8  ls contacts
+    9  ls appdata
+   10  ls /users/alexa/contacts
+   11  cd Documents
+   12  cd ..
+   13  cd /Users/alexa/Music
+   14  cd /mnt/c/Users/Alexa/Downloads
+   15  cd ..
+   16  ls
+   17  cd alexa
+   18  ls
+   19  pwd
+   20  clear
+   21  echo 'Hello world!'
+   22  echo a=5
+   23  echo b=6
+   24  echo a+b
+   25  echo "!"
+   26  $user
+   27  $USER
+   28  $a=5
+   29  $a
+   30  $b
+   31  echo a
+   32  echo $hostname
+   33  echo $HOSTNAME
+   34  echo "koristim računalo" $HOSTNAME
+   35  mkdir files_manipulation
+   36  pwd
+   37  cd files_manipulation
+   38  cd ..
+   39  ls
+   40  cd files_manipulation/
+   41  mkdir test
+   42  ls
+   43  cd ..
+   44  mkdir files_manipulation/test_2
+   45  cd files_manipulation/test_2
+   46  cd ..
+   47  pwd
+   48  cd ..
+   49  cd files_manipulation && mkdir test_3
+   50  ls
+   51  rm files_manipulation
+   52  wsl
+   53  exit
+   54  pwd
+   55  ls
+   56  eixt
+   57  exit
+   58  ls
+   59  rm bombaclat
+   60  cd Desktop
+   61  cd My Documents
+   62  cd Documents
+   63  ls
+   64  cd ..
+   65  cd CrossDevice
+   66  ls
+   67  cd ..
+   68  cd Recent
+   69  ls
+   70  cd 'Informacijski sustavi.lnk'
+   71  cd Informacijski sustavi.lnk
+   72  ls
+   73  cd ..
+   74  ls
+   75  cd AppData
+   76  ls
+   77  cd Local
+   78  ls
+   79  cd ..
+   80  $path Desktop
+   81  cd $DESKTOP
+   82  ls
+   83  cd ..
+   84  exit
+   85  pwd
+   86  ls
+   87  rm bombaclat
+   88  cd bombaclat/
+   89  ls
+   90  rm index.html/
+   91  cd index.html/
+   92  ls
+   93  rm .
+   94  rm
+   95  rm ..
+   96  rm index.html
+   97  cd ..
+   98  rm index.html
+   99  rmdir index.html/
+  100  ls
+  101  cd ..
+  102  rmdir bombaclat/
+  103  ls
+  104  cd psj
+  105  ls
+  106  cd ..
+  107  mkdir psj/
+  108  mkdir psj
+  109  ls
+  110  rm psj
+  111  mkdir psj
+  112  ls
+  113  echo "kokos"
+  114  echo "Ja sam $USER i imam 19 godina"
+  115  clear
+  116  echo "$USER je korisnik koji upravlja ovim računalom!"
+  117  clear
+  118  exit
+  119  clear
+  120  echo "A, B i C"
+  121  clear
+  122  exit
+  123  clear
+  124  pwd
+  125  ls
+  126  clerar
+  127  clear
+  128  ls
+  129  pwd
+  130  exit
+  131  echo "Ja sam Alex"
+  132  clear
+  133  ls
+  134  cd 2
+  135  ls
+  136  cd ..
+  137  clear
+  138  bash --version
+  139  bash -version
+  140  bash -v
+  141  bash --version
+  142  node --version
+  143  node -v
+  144  docker --version
+  145  docker -v
+  146  git -v
+  147  python3 --version
+  148  python3 -v
+  149  ls
+  150  cd vjezba_2
+  151  ls
+  152  tree
+  153  cd ..
+  154  rmdir vjezba_2
+  155  rm -f vjezba_2
+  156  rmdir -f vjezba_2
+  157  rm -i vjezba_2/*
+  158  cd vjezba_2
+  159  rm -f ./*
+  160  rmdir dir1_razina1/
+  161  rm dir1_razina1/*
+  162  cd ..
+  163  rm -r vjezba_2
+  164  ls vjezba_2
+  165  ls
+  166  cd psj
+  167  ls
+  168  ls -la
+  169  ls
+  170  cd
+  171  exit
+  172  ls
+  173  rm -r psj
+  174  ls
+  175  exit
+  176  ls ~/
+  177  ls -l -a
+  178  ls -a -l
+  179  ls -la
+  180  -R
+  181  cd vjezba_2
+  182  pwd
+  183  ls -a
+  184  ls -A
+  185  rm .skrivena_datoteka.txt
+  186  rm .datoteka
+  187  rmdir .datoteka
+  188  ls -a
+  189  rm datoteka.txt
+  190  ls -A
+  191  ls
+  192  mkdir dir1_razina1 dir2_razina1 dir3_razina1
+  193  touch datoteka1_razina1 datoteka2_razina1
+  194  ls
+  195  cd dir1_razina1/
+  196  touch datoteka1_razina2.js datoteka2_razina2.html
+  197  ls
+  198  mkdir dir1_razina2
+  199  ls
+  200  touch dir1_razina2/datoteka1_razina3.cpp
+  201  ls dir1_razina2/datoteka1_razina3.cpp
+  202  cd ..
+  203  ls
+  204  cd dir2_razina1/
+  205  ls
+  206  cd ..
+  207  cd dir1_razina1
+  208  ls
+  209  cd ..
+  210  ls
+  211  pwd
+  212  ls -R
+  213  cd ..
+  214  ls -R
+  215  cd vjezba_2
+  216  tree
+  217  sudo apt install tree
+  218  tree
+  219  ls -R
+  220  ls -aR
+  221  ls -Rl
+  222  ls -Rla
+  223  tree -a
+  224  ls -h
+  225  man ls
+  226  ls -h
+  227  -h
+  228  ls -lh
+  229  ls -lth
+  230  -lth -r
+  231  ls -r
+  232  ls -lth
+  233  ls -lSh
+  234  ls -lSh -1
+  235  cd ..
+  236  ls -1
+  237  ls -lSh
+  238  ls -h
+  239  cd vjezba_2
+  240  ls --color -lh
+  241  ls --color -R
+  242  tree --color -A
+  243  ls
+  244  ls -h
+  245  clear
+  246  cd ..
+  247  man
+  248  man man
+  249  man pwd
+  250  cd vjezba_2
+  251  ls
+  252  cd dir2_razina1
+  253  ls
+  254  mkdir -p test/test2/test3/test4
+  255  ls
+  256  cd test
+  257  ls
+  258  cd ..
+  259  tree
+  260  rmdir -p test/test2/test3/test4
+  261  tree
+  262  cd dir2_razina1
+  263  ls
+  264  rmdir -p test/test2/test3/test4
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd dir1_razina1
+  269  ls
+  270  mkdir -p test1/test2
+  271  mv -p test1/test2 cd .. dir2_razina1
+  272  mv -i test1
+  273  ls
+  274  mvdir -i test1 mnt/c/Users/alexa/vjezba_2/dir2_razina1
+  275  cd test1
+  276  mkdir mana.txt
+  277  mv -i mana.txt /mnt/c/Users/alexa/vjezba_2/dir2_razina1
+  278  cd ../..
+  279  ls
+  280  cd dir2_razina1
+  281  ls
+  282  notepad mana.txt
+  283  rm -i mana.txt
+  284  rmdir mana.txt
+  285  mkdir mana.txt
+  286  rm -i mana.txt
+  287  mk mana.txt
+  288  touch mango.txt
+  289  mv -i mango.txt
+  290  rm -i mango.txt
+  291  ls
+  292  rmdir mana.txt
+  293  ls
+  294  cd ..
+  295  tree
+  296  rmdir ./dir1_razina1/test1/
+  297  rmdir -p ./dir1_razina1/test1/test2/
+  298  cd dir1_razina1
+  299  rmdir -p test1/test2/
+  300  ls
+  301  cd ..
+  302  tree
+  303  mkdir system32
+  304  touch system32/super_important.txt
+  305  rm -i system32/super_important.txt/
+  306  rm -i system32/super_important.txt
+  307  ls system32
+  308  rm -i system32
+  309  rmdir system32
+  310  ls
+  311  mkdir vjezba_i/
+  312  cd vjezba_i/
+  313  touch zadace.txt
+  314  mkdir zadace
+  315  touch zadace/zadace.txt
+  316  ls -R
+  317  tree
+  318  cp zadace.txt zadace
+  319  cp -i zadace.txt zadace
+  320  clear
+  321  mv -i zadace.txt zadace
+  322  ls
+  323  cd zadace
+  324  cp zadace.txt ..
+  325  cp -i zadace.txt ..
+  326  ls
+  327  cd --
+  328  pwd
+  329  ls
+  330  cd /mnt
+  331  cd /c/Users/vjezba_2
+  332  cd c
+  333  cd Users
+  334  cd alexa
+  335  ls
+  336  ls -h
+  337  ls -lSh
+  338  cd vjezba_2
+  339  ls
+  340  tree
+  341  cd vjezba_i
+  342  ls
+  343  mkdir zadace_updated
+  344  ls
+  345  mkdir zadace/najnovije_zadace
+  346  tree
+  347  mv zadace zadace_updated
+  348  tree
+  349  clear
+  350  tree
+  351  pwd
+  352  cp zadaca.txt zadace_updated
+  353  cp zadace.txt zadace_updated
+  354  tree
+  355  pwd
+  356  cd zadace_updated
+  357  mkdir zadace2
+  358  tree
+  359  cp zadace.txt zadace2
+  360  tree
+  361  cp -r zadace zadace2
+  362  tree
+  363  rm -r zadace2/zadace
+  364  tree
+  365  cp -r zadace/* zadace2
+  366  tree
+  367  rm -r zadace2
+  368  tree
+  369  mkdir zadace2
+  370  cp -r zadace/* najnovije_zadace zadace2
+  371  cp -r zadace/* zadace2
+  372  tree
+  373  rm -r zadace/*
+  374  tree
+  375  touch zadace/sadrzaj1.txt
+  376  ls -la
+  377  rm -r zadace/*
+  378  tree
+  379  mkdir -p test1/test2/test3
+  380  touch test1/test2/test3/testovi.txt
+  381  tree
+  382  rm -r test1/*
+  383  tree
+  384  rmdir test1
+  385  tree
+  386  pwd
+  387  cd ../..
+  388  tree
+  389  rm -ri vjezba_i
+  390  tree
+  391  cp -iv dir1_razina3.cpp dir2_razina1
+  392  cp -iv dir1_razina1/dir1_razina2/datoteka1_razina3.cpp dir2_razina1
+  393  y
+  394  tree
+  395  rm -vir dir2_razina1/*
+  396  tree
+  397  cp -vi dir1_razina1/dir1_razina2/* dir2_razina1
+  398  tree
+  399  rm dir5_razina1
+  400  rm -f dir5_razina1
+  401  tree
+  402  rm dir2_razina1
+  403  rm f dir2_razina1
+  404  rm -f dir2_razina1
+  405  tree
+  406  pwd
+  407  cd dir2_razina1
+  408  tree
+  409  touch vjezba1.txt
+  410  tree
+  411  echo "Ja sam text" > vjezba1.txt
+  412  mkdir vjezba_vf
+  413  cd vjezba_vf/
+  414  echo "console.log(123)" > index.js
+  415  ls
+  416  xat index.js
+  417  cat index.js
+  418  cd ..
+  419  tree
+  420  cat vjezba1.txt
+  421  cd vjezba_vf
+  422  mkdir src
+  423  echo "console.log(456)" > src/index.js
+  424  ls src
+  425  cat src/index.js
+  426  tree
+  427  cd ..
+  428  tree
+  429  cp -v vjezba_vf/index.js vjezba_vf/src/index.js
+  430  tree
+  431  cat vjezba_vf/index.js
+  432  cat vjezba_vf/src/index.js
+  433  open vjezba_vf index.js
+  434  tree
+  435  pwd
+  436  cd ..
+  437  tree
+  438  pwd
+  439  echo "Ovo je ludi textpwd" > dir2_razina1/vjezba1.txt
+  440  cat dir2_razina1/vjezba1.txt
+  441  cd dir2_razina1
+  442  tree
+  443  cd vjezba_vf
+  444  touch index.js
+  445  echo "sadrzaj sadrzaj sadrzi" > index.js
+  446  tree
+  447  touch .salabahter.cpp
+  448  ls
+  449  ls -la
+  450  clear
+  451  tree
+  452  tree -a
+  453  mv -n -v ./* src
+  454  tree
+  455  clear
+  456  tree
+  457  pwd
+  458  cat src/index.js
+  459  tree -a
+  460  mv .salabahter.cpp src
+  461  tree -a
+  462  cd ..
+  463  tree
+  464  rm ./
+  465  rmdir ./
+  466  cd
+  467  cd /mnt
+  468  cd/Users
+  469  cd c
+  470  cd/Users
+  471  ls
+  472  cd Users
+  473  ls
+  474  cd alexa
+  475  cd vjezba_2
+  476  ls
+  477  tree
+  478  man cp
+  479  cd ..
+  480  tree
+  481  clear
+  482  exit
+  483  bash -v
+  484  exxit
+  485  exit
+  486  mkdir vjezba_2
+  487  touch vjezba_2/datoteka.txt
+  488  ls vjezba_2
+  489  touch vjezba_2/.skrivena_datoteka.txt
+  490  ls -a vjezba_2
+  491  ls vjezba_2
+  492  ls ../..
+  493  pwd
+  494  cd vjezba_2
+  495  ls -a
+  496  cd ..
+  497  cd .
+  498  pwd
+  499  ls ../..
+  500  cd vjezba_2/
+  501  pwd
+  502  ls -a
+  503  cd ../..
+  504  pwd
+  505  ls -a
+  506  ls -A
+  507  ls -A vjezba_2/
+  508  ls -A vjezba_2
+  509  ls
+  510  cd alexa
+  511  ls -A vjezba_2/
+  512  -rw-r--r--
+  513  ls -l
+  514  ls ~/
+  515  ls ~/Documents
+  516  ls ~/Saved Games
+  517  ls ~/Searches
+  518  ls -l -a ~/Videos/
+  519  ls
+  520  ls -l -a ~/Documents/
+  521  ls -l -a ~/./
+  522  ls
+  523  cd ~/Contacts/
+  524  cd ~/Downloads
+  525  ls
+  526  ls ~/
+  527  bash
+  528  git --version
+  529  git config --list
+  530  sudo apt upgrade git
+  531  clear
+  532  ls
+  533  mkdir vjezba_1
+  534  ls
+  535  cd vjezba_1
+  536  git --version
+  537  git init
+  538  ls
+  539  tree
+  540  ls -a
+  541  touch README.md
+  542  ls
+  543  echo "#Moj lokalni Git projekt" > README.md
+  544  ls README.md
+  545  cd README.md
+  546  open README.md
+  547  cat README.md
+  548  git add README.md
+  549  git status
+  550  git commit -m "1. znak uspjesne vjezbe!"
+  551  git config --global user.email "alexmihatovic@gmail.com"
+  552  git config --global user.name "amihatovic07"
+  553  git commit -m "moja poruka"
+  554  git log
+  555  rm README.md
+  556  git status
+  557  git add .
+  558  git status
+  559  git commit -m "Commit broj 2"
+  560  git status
+  561  git log
+  562  git checkout fd8379759e7b9405daeb49bd3495ccd41ddf92b8
+  563  ls -a
+  564  git log
+  565  git push
+  566  git push origin main
+  567  git push main
+  568  git status -s
+  569  git -as
+  570  git -S
+  571  git -s
+  572  git -ash status
+  573  git log
+  574  git log -a
+  575  cd ..
+  576  rmdir vjezba_1
+  577  rm -r vjezba_1
+  578  ls
+  579  git ls
+  580  git -la ls
+  581  git --help
+  582  git clone
+  583  git clone OS-zadace
+  584  git clone OS-Operacijski-Sustavi
+  585  git repository
+  586  mkdir vjezba_2
+  587  cd vjezba_2
+  588  git init
+  589  git clone OS-Operacijski-Sustavi
+  590  git clone OS-zadace
+  591  git repository ls
+  592  git ls
+  593  git -a ls
+  594  git -h
+  595  cd ..
+  596  mkdir vjezba_2a
+  597  cd vjezba_2a
+  598  git clone ../vjezba2
+  599  git clone vjezba2
+  600  cd ..
+  601  git clone vjezba_2 > vjezba_2a
+  602  cd vjezba_2a
+  603  git clone vjezba_2
+  604  git init
+  605  cd ..
+  606  git clone vjezba_2 > vjezba_2a
+  607  rm -ri cjezba_2a
+  608  rm -ri vjezba_2a
+  609  rm -ri vjezba_2
+  610  y
+  611  clear
+  612  ls -a
+  613  ls
+  614  git --v
+  615  git -v
+  616  mkdir vjezba_1
+  617  cd bjezba_1
+  618  cd vjezba_2
+  619  cd vjezba_1
+  620  ls
+  621  mkdir git_vjezba
+  622  cd git_vjezba
+  623  git init
+  624  ls
+  625  cd vjezba_1
+  626  ls
+  627  cd git_vjezba/
+  628  git clone https://github.com/LorenaJeger/InformacijskiSustavi2024.git
+  629  tree
+  630  exit
+  631  ls
+  632  cd vjezba_1
+  633  ls
+  634  cd ..
+  635  mkdir vjezba1_git
+  636  cd vjezba1_git
+  637  clear
+  638  git clone https://github.com/amihatovic07/OS-Operacijski-Sustavi/tree/main/OS-zadace
+  639  git clone https://github.com/amihatovic07/OS-Operacijski-Sustavi/tree/main
+  640  git clone https://github.com/amihatovic07/OS-Operacijski-Sustavi.git
+  641  ls
+  642  cd OS-Operacijski-Sustavi/
+  643  ls
+  644  cd OS-zadace/
+  645  mkdir vjezba2
+  646  cd vjezba2/
+  647  touch vjezba_2.txt
+  648  ls
+  649  cd ..
+  650  cd vjezba2
+  651  mkdir vjezba_2/data
+  652  pwd
+  653  ls
+  654  mkdir -p vjezba_2/data
+  655  mkdir -p vjezba_2/backup
+  656  ls
+  657  cd vjezba_2
+  658  ls
+  659  cd data
+  660  ls
+  661  pwd
+  662  touch script.js style.css .env
+  663  ls -la
+  664  echo 'console.log("Hello, World!")' > script.js
+  665  echo 'body { background-color: #f0f0f0; }' > style.css
+  666  echo 'VJEZBE=OS' > .env
+  667  cat script.js
+  668  cat style.css
+  669  cat .env
+  670  cd ..
+  671  cp data/* backup
+  672  cd data
+  673  cd ..
+  674  cd backup/
+  675  ls -la
+  676  ls -a
+  677  cd ..
+  678  ls
+  679  cd data
+  680  cp -a . ../backup
+  681  cd ..
+  682  cd backup/
+  683  ls -a
+  684  cd ..
+  685  cd data/
+  686  ls -a
+  687  ls -av ../backup
+  688  ls -laSv ../backup
+  689  ls -laS ../backup
+  690  rm -iv ./
+  691  rm -iv
+  692  cd ..
+  693  rm -iv data/*
+  694  cd data
+  695  ls -a
+  696  cp -laS ../backup
+  697  cp -las data/* ../backup
+  698  cd ..
+  699  cp -laS data/* backup
+  700  ls
+  701  cd data/
+  702  cp -avn ../backup/. .
+  703  ls -ltA
+  704  ls -ltA1
+  705  tree
+  706  history
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2/data$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ ls
+backup  data
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2/vjezba_2$ cd ..
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ ls
+vjezba_2  vjezba_2.txt
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ history > vjezba_2_history.txt
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ cat vjezba_2_history.txt
+    1  wsl --list
+    2  --list
+    3  exit
+    4  echo $0
+    5  pwd
+    6  ls
+    7  ls desktop
+    8  ls contacts
+    9  ls appdata
+   10  ls /users/alexa/contacts
+   11  cd Documents
+   12  cd ..
+   13  cd /Users/alexa/Music
+   14  cd /mnt/c/Users/Alexa/Downloads
+   15  cd ..
+   16  ls
+   17  cd alexa
+   18  ls
+   19  pwd
+   20  clear
+   21  echo 'Hello world!'
+   22  echo a=5
+   23  echo b=6
+   24  echo a+b
+   25  echo "!"
+   26  $user
+   27  $USER
+   28  $a=5
+   29  $a
+   30  $b
+   31  echo a
+   32  echo $hostname
+   33  echo $HOSTNAME
+   34  echo "koristim računalo" $HOSTNAME
+   35  mkdir files_manipulation
+   36  pwd
+   37  cd files_manipulation
+   38  cd ..
+   39  ls
+   40  cd files_manipulation/
+   41  mkdir test
+   42  ls
+   43  cd ..
+   44  mkdir files_manipulation/test_2
+   45  cd files_manipulation/test_2
+   46  cd ..
+   47  pwd
+   48  cd ..
+   49  cd files_manipulation && mkdir test_3
+   50  ls
+   51  rm files_manipulation
+   52  wsl
+   53  exit
+   54  pwd
+   55  ls
+   56  eixt
+   57  exit
+   58  ls
+   59  rm bombaclat
+   60  cd Desktop
+   61  cd My Documents
+   62  cd Documents
+   63  ls
+   64  cd ..
+   65  cd CrossDevice
+   66  ls
+   67  cd ..
+   68  cd Recent
+   69  ls
+   70  cd 'Informacijski sustavi.lnk'
+   71  cd Informacijski sustavi.lnk
+   72  ls
+   73  cd ..
+   74  ls
+   75  cd AppData
+   76  ls
+   77  cd Local
+   78  ls
+   79  cd ..
+   80  $path Desktop
+   81  cd $DESKTOP
+   82  ls
+   83  cd ..
+   84  exit
+   85  pwd
+   86  ls
+   87  rm bombaclat
+   88  cd bombaclat/
+   89  ls
+   90  rm index.html/
+   91  cd index.html/
+   92  ls
+   93  rm .
+   94  rm
+   95  rm ..
+   96  rm index.html
+   97  cd ..
+   98  rm index.html
+   99  rmdir index.html/
+  100  ls
+  101  cd ..
+  102  rmdir bombaclat/
+  103  ls
+  104  cd psj
+  105  ls
+  106  cd ..
+  107  mkdir psj/
+  108  mkdir psj
+  109  ls
+  110  rm psj
+  111  mkdir psj
+  112  ls
+  113  echo "kokos"
+  114  echo "Ja sam $USER i imam 19 godina"
+  115  clear
+  116  echo "$USER je korisnik koji upravlja ovim računalom!"
+  117  clear
+  118  exit
+  119  clear
+  120  echo "A, B i C"
+  121  clear
+  122  exit
+  123  clear
+  124  pwd
+  125  ls
+  126  clerar
+  127  clear
+  128  ls
+  129  pwd
+  130  exit
+  131  echo "Ja sam Alex"
+  132  clear
+  133  ls
+  134  cd 2
+  135  ls
+  136  cd ..
+  137  clear
+  138  bash --version
+  139  bash -version
+  140  bash -v
+  141  bash --version
+  142  node --version
+  143  node -v
+  144  docker --version
+  145  docker -v
+  146  git -v
+  147  python3 --version
+  148  python3 -v
+  149  ls
+  150  cd vjezba_2
+  151  ls
+  152  tree
+  153  cd ..
+  154  rmdir vjezba_2
+  155  rm -f vjezba_2
+  156  rmdir -f vjezba_2
+  157  rm -i vjezba_2/*
+  158  cd vjezba_2
+  159  rm -f ./*
+  160  rmdir dir1_razina1/
+  161  rm dir1_razina1/*
+  162  cd ..
+  163  rm -r vjezba_2
+  164  ls vjezba_2
+  165  ls
+  166  cd psj
+  167  ls
+  168  ls -la
+  169  ls
+  170  cd
+  171  exit
+  172  ls
+  173  rm -r psj
+  174  ls
+  175  exit
+  176  ls ~/
+  177  ls -l -a
+  178  ls -a -l
+  179  ls -la
+  180  -R
+  181  cd vjezba_2
+  182  pwd
+  183  ls -a
+  184  ls -A
+  185  rm .skrivena_datoteka.txt
+  186  rm .datoteka
+  187  rmdir .datoteka
+  188  ls -a
+  189  rm datoteka.txt
+  190  ls -A
+  191  ls
+  192  mkdir dir1_razina1 dir2_razina1 dir3_razina1
+  193  touch datoteka1_razina1 datoteka2_razina1
+  194  ls
+  195  cd dir1_razina1/
+  196  touch datoteka1_razina2.js datoteka2_razina2.html
+  197  ls
+  198  mkdir dir1_razina2
+  199  ls
+  200  touch dir1_razina2/datoteka1_razina3.cpp
+  201  ls dir1_razina2/datoteka1_razina3.cpp
+  202  cd ..
+  203  ls
+  204  cd dir2_razina1/
+  205  ls
+  206  cd ..
+  207  cd dir1_razina1
+  208  ls
+  209  cd ..
+  210  ls
+  211  pwd
+  212  ls -R
+  213  cd ..
+  214  ls -R
+  215  cd vjezba_2
+  216  tree
+  217  sudo apt install tree
+  218  tree
+  219  ls -R
+  220  ls -aR
+  221  ls -Rl
+  222  ls -Rla
+  223  tree -a
+  224  ls -h
+  225  man ls
+  226  ls -h
+  227  -h
+  228  ls -lh
+  229  ls -lth
+  230  -lth -r
+  231  ls -r
+  232  ls -lth
+  233  ls -lSh
+  234  ls -lSh -1
+  235  cd ..
+  236  ls -1
+  237  ls -lSh
+  238  ls -h
+  239  cd vjezba_2
+  240  ls --color -lh
+  241  ls --color -R
+  242  tree --color -A
+  243  ls
+  244  ls -h
+  245  clear
+  246  cd ..
+  247  man
+  248  man man
+  249  man pwd
+  250  cd vjezba_2
+  251  ls
+  252  cd dir2_razina1
+  253  ls
+  254  mkdir -p test/test2/test3/test4
+  255  ls
+  256  cd test
+  257  ls
+  258  cd ..
+  259  tree
+  260  rmdir -p test/test2/test3/test4
+  261  tree
+  262  cd dir2_razina1
+  263  ls
+  264  rmdir -p test/test2/test3/test4
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd dir1_razina1
+  269  ls
+  270  mkdir -p test1/test2
+  271  mv -p test1/test2 cd .. dir2_razina1
+  272  mv -i test1
+  273  ls
+  274  mvdir -i test1 mnt/c/Users/alexa/vjezba_2/dir2_razina1
+  275  cd test1
+  276  mkdir mana.txt
+  277  mv -i mana.txt /mnt/c/Users/alexa/vjezba_2/dir2_razina1
+  278  cd ../..
+  279  ls
+  280  cd dir2_razina1
+  281  ls
+  282  notepad mana.txt
+  283  rm -i mana.txt
+  284  rmdir mana.txt
+  285  mkdir mana.txt
+  286  rm -i mana.txt
+  287  mk mana.txt
+  288  touch mango.txt
+  289  mv -i mango.txt
+  290  rm -i mango.txt
+  291  ls
+  292  rmdir mana.txt
+  293  ls
+  294  cd ..
+  295  tree
+  296  rmdir ./dir1_razina1/test1/
+  297  rmdir -p ./dir1_razina1/test1/test2/
+  298  cd dir1_razina1
+  299  rmdir -p test1/test2/
+  300  ls
+  301  cd ..
+  302  tree
+  303  mkdir system32
+  304  touch system32/super_important.txt
+  305  rm -i system32/super_important.txt/
+  306  rm -i system32/super_important.txt
+  307  ls system32
+  308  rm -i system32
+  309  rmdir system32
+  310  ls
+  311  mkdir vjezba_i/
+  312  cd vjezba_i/
+  313  touch zadace.txt
+  314  mkdir zadace
+  315  touch zadace/zadace.txt
+  316  ls -R
+  317  tree
+  318  cp zadace.txt zadace
+  319  cp -i zadace.txt zadace
+  320  clear
+  321  mv -i zadace.txt zadace
+  322  ls
+  323  cd zadace
+  324  cp zadace.txt ..
+  325  cp -i zadace.txt ..
+  326  ls
+  327  cd --
+  328  pwd
+  329  ls
+  330  cd /mnt
+  331  cd /c/Users/vjezba_2
+  332  cd c
+  333  cd Users
+  334  cd alexa
+  335  ls
+  336  ls -h
+  337  ls -lSh
+  338  cd vjezba_2
+  339  ls
+  340  tree
+  341  cd vjezba_i
+  342  ls
+  343  mkdir zadace_updated
+  344  ls
+  345  mkdir zadace/najnovije_zadace
+  346  tree
+  347  mv zadace zadace_updated
+  348  tree
+  349  clear
+  350  tree
+  351  pwd
+  352  cp zadaca.txt zadace_updated
+  353  cp zadace.txt zadace_updated
+  354  tree
+  355  pwd
+  356  cd zadace_updated
+  357  mkdir zadace2
+  358  tree
+  359  cp zadace.txt zadace2
+  360  tree
+  361  cp -r zadace zadace2
+  362  tree
+  363  rm -r zadace2/zadace
+  364  tree
+  365  cp -r zadace/* zadace2
+  366  tree
+  367  rm -r zadace2
+  368  tree
+  369  mkdir zadace2
+  370  cp -r zadace/* najnovije_zadace zadace2
+  371  cp -r zadace/* zadace2
+  372  tree
+  373  rm -r zadace/*
+  374  tree
+  375  touch zadace/sadrzaj1.txt
+  376  ls -la
+  377  rm -r zadace/*
+  378  tree
+  379  mkdir -p test1/test2/test3
+  380  touch test1/test2/test3/testovi.txt
+  381  tree
+  382  rm -r test1/*
+  383  tree
+  384  rmdir test1
+  385  tree
+  386  pwd
+  387  cd ../..
+  388  tree
+  389  rm -ri vjezba_i
+  390  tree
+  391  cp -iv dir1_razina3.cpp dir2_razina1
+  392  cp -iv dir1_razina1/dir1_razina2/datoteka1_razina3.cpp dir2_razina1
+  393  y
+  394  tree
+  395  rm -vir dir2_razina1/*
+  396  tree
+  397  cp -vi dir1_razina1/dir1_razina2/* dir2_razina1
+  398  tree
+  399  rm dir5_razina1
+  400  rm -f dir5_razina1
+  401  tree
+  402  rm dir2_razina1
+  403  rm f dir2_razina1
+  404  rm -f dir2_razina1
+  405  tree
+  406  pwd
+  407  cd dir2_razina1
+  408  tree
+  409  touch vjezba1.txt
+  410  tree
+  411  echo "Ja sam text" > vjezba1.txt
+  412  mkdir vjezba_vf
+  413  cd vjezba_vf/
+  414  echo "console.log(123)" > index.js
+  415  ls
+  416  xat index.js
+  417  cat index.js
+  418  cd ..
+  419  tree
+  420  cat vjezba1.txt
+  421  cd vjezba_vf
+  422  mkdir src
+  423  echo "console.log(456)" > src/index.js
+  424  ls src
+  425  cat src/index.js
+  426  tree
+  427  cd ..
+  428  tree
+  429  cp -v vjezba_vf/index.js vjezba_vf/src/index.js
+  430  tree
+  431  cat vjezba_vf/index.js
+  432  cat vjezba_vf/src/index.js
+  433  open vjezba_vf index.js
+  434  tree
+  435  pwd
+  436  cd ..
+  437  tree
+  438  pwd
+  439  echo "Ovo je ludi textpwd" > dir2_razina1/vjezba1.txt
+  440  cat dir2_razina1/vjezba1.txt
+  441  cd dir2_razina1
+  442  tree
+  443  cd vjezba_vf
+  444  touch index.js
+  445  echo "sadrzaj sadrzaj sadrzi" > index.js
+  446  tree
+  447  touch .salabahter.cpp
+  448  ls
+  449  ls -la
+  450  clear
+  451  tree
+  452  tree -a
+  453  mv -n -v ./* src
+  454  tree
+  455  clear
+  456  tree
+  457  pwd
+  458  cat src/index.js
+  459  tree -a
+  460  mv .salabahter.cpp src
+  461  tree -a
+  462  cd ..
+  463  tree
+  464  rm ./
+  465  rmdir ./
+  466  cd
+  467  cd /mnt
+  468  cd/Users
+  469  cd c
+  470  cd/Users
+  471  ls
+  472  cd Users
+  473  ls
+  474  cd alexa
+  475  cd vjezba_2
+  476  ls
+  477  tree
+  478  man cp
+  479  cd ..
+  480  tree
+  481  clear
+  482  exit
+  483  bash -v
+  484  exxit
+  485  exit
+  486  mkdir vjezba_2
+  487  touch vjezba_2/datoteka.txt
+  488  ls vjezba_2
+  489  touch vjezba_2/.skrivena_datoteka.txt
+  490  ls -a vjezba_2
+  491  ls vjezba_2
+  492  ls ../..
+  493  pwd
+  494  cd vjezba_2
+  495  ls -a
+  496  cd ..
+  497  cd .
+  498  pwd
+  499  ls ../..
+  500  cd vjezba_2/
+  501  pwd
+  502  ls -a
+  503  cd ../..
+  504  pwd
+  505  ls -a
+  506  ls -A
+  507  ls -A vjezba_2/
+  508  ls -A vjezba_2
+  509  ls
+  510  cd alexa
+  511  ls -A vjezba_2/
+  512  -rw-r--r--
+  513  ls -l
+  514  ls ~/
+  515  ls ~/Documents
+  516  ls ~/Saved Games
+  517  ls ~/Searches
+  518  ls -l -a ~/Videos/
+  519  ls
+  520  ls -l -a ~/Documents/
+  521  ls -l -a ~/./
+  522  ls
+  523  cd ~/Contacts/
+  524  cd ~/Downloads
+  525  ls
+  526  ls ~/
+  527  bash
+  528  git --version
+  529  git config --list
+  530  sudo apt upgrade git
+  531  clear
+  532  ls
+  533  mkdir vjezba_1
+  534  ls
+  535  cd vjezba_1
+  536  git --version
+  537  git init
+  538  ls
+  539  tree
+  540  ls -a
+  541  touch README.md
+  542  ls
+  543  echo "#Moj lokalni Git projekt" > README.md
+  544  ls README.md
+  545  cd README.md
+  546  open README.md
+  547  cat README.md
+  548  git add README.md
+  549  git status
+  550  git commit -m "1. znak uspjesne vjezbe!"
+  551  git config --global user.email "alexmihatovic@gmail.com"
+  552  git config --global user.name "amihatovic07"
+  553  git commit -m "moja poruka"
+  554  git log
+  555  rm README.md
+  556  git status
+  557  git add .
+  558  git status
+  559  git commit -m "Commit broj 2"
+  560  git status
+  561  git log
+  562  git checkout fd8379759e7b9405daeb49bd3495ccd41ddf92b8
+  563  ls -a
+  564  git log
+  565  git push
+  566  git push origin main
+  567  git push main
+  568  git status -s
+  569  git -as
+  570  git -S
+  571  git -s
+  572  git -ash status
+  573  git log
+  574  git log -a
+  575  cd ..
+  576  rmdir vjezba_1
+  577  rm -r vjezba_1
+  578  ls
+  579  git ls
+  580  git -la ls
+  581  git --help
+  582  git clone
+  583  git clone OS-zadace
+  584  git clone OS-Operacijski-Sustavi
+  585  git repository
+  586  mkdir vjezba_2
+  587  cd vjezba_2
+  588  git init
+  589  git clone OS-Operacijski-Sustavi
+  590  git clone OS-zadace
+  591  git repository ls
+  592  git ls
+  593  git -a ls
+  594  git -h
+  595  cd ..
+  596  mkdir vjezba_2a
+  597  cd vjezba_2a
+  598  git clone ../vjezba2
+  599  git clone vjezba2
+  600  cd ..
+  601  git clone vjezba_2 > vjezba_2a
+  602  cd vjezba_2a
+  603  git clone vjezba_2
+  604  git init
+  605  cd ..
+  606  git clone vjezba_2 > vjezba_2a
+  607  rm -ri cjezba_2a
+  608  rm -ri vjezba_2a
+  609  rm -ri vjezba_2
+  610  y
+  611  clear
+  612  ls -a
+  613  ls
+  614  git --v
+  615  git -v
+  616  mkdir vjezba_1
+  617  cd bjezba_1
+  618  cd vjezba_2
+  619  cd vjezba_1
+  620  ls
+  621  mkdir git_vjezba
+  622  cd git_vjezba
+  623  git init
+  624  ls
+  625  cd vjezba_1
+  626  ls
+  627  cd git_vjezba/
+  628  git clone https://github.com/LorenaJeger/InformacijskiSustavi2024.git
+  629  tree
+  630  exit
+  631  ls
+  632  cd vjezba_1
+  633  ls
+  634  cd ..
+  635  mkdir vjezba1_git
+  636  cd vjezba1_git
+  637  clear
+  638  git clone https://github.com/amihatovic07/OS-Operacijski-Sustavi/tree/main/OS-zadace
+  639  git clone https://github.com/amihatovic07/OS-Operacijski-Sustavi/tree/main
+  640  git clone https://github.com/amihatovic07/OS-Operacijski-Sustavi.git
+  641  ls
+  642  cd OS-Operacijski-Sustavi/
+  643  ls
+  644  cd OS-zadace/
+  645  mkdir vjezba2
+  646  cd vjezba2/
+  647  touch vjezba_2.txt
+  648  ls
+  649  cd ..
+  650  cd vjezba2
+  651  mkdir vjezba_2/data
+  652  pwd
+  653  ls
+  654  mkdir -p vjezba_2/data
+  655  mkdir -p vjezba_2/backup
+  656  ls
+  657  cd vjezba_2
+  658  ls
+  659  cd data
+  660  ls
+  661  pwd
+  662  touch script.js style.css .env
+  663  ls -la
+  664  echo 'console.log("Hello, World!")' > script.js
+  665  echo 'body { background-color: #f0f0f0; }' > style.css
+  666  echo 'VJEZBE=OS' > .env
+  667  cat script.js
+  668  cat style.css
+  669  cat .env
+  670  cd ..
+  671  cp data/* backup
+  672  cd data
+  673  cd ..
+  674  cd backup/
+  675  ls -la
+  676  ls -a
+  677  cd ..
+  678  ls
+  679  cd data
+  680  cp -a . ../backup
+  681  cd ..
+  682  cd backup/
+  683  ls -a
+  684  cd ..
+  685  cd data/
+  686  ls -a
+  687  ls -av ../backup
+  688  ls -laSv ../backup
+  689  ls -laS ../backup
+  690  rm -iv ./
+  691  rm -iv
+  692  cd ..
+  693  rm -iv data/*
+  694  cd data
+  695  ls -a
+  696  cp -laS ../backup
+  697  cp -las data/* ../backup
+  698  cd ..
+  699  cp -laS data/* backup
+  700  ls
+  701  cd data/
+  702  cp -avn ../backup/. .
+  703  ls -ltA
+  704  ls -ltA1
+  705  tree
+  706  history
+  707  cd ..
+  708  ls
+  709  cd ..
+  710  ls
+  711  history > vjezba_2_history.txt
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ git add .
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ git commit -m "Dodana povijest naredbi za vjezbu 2"
+[main f9e90c7] Dodana povijest naredbi za vjezbu 2
+ 8 files changed, 717 insertions(+)
+ create mode 100644 OS-zadace/vjezba2/vjezba_2.txt
+ create mode 100644 OS-zadace/vjezba2/vjezba_2/backup/.env
+ create mode 100644 OS-zadace/vjezba2/vjezba_2/backup/script.js
+ create mode 100644 OS-zadace/vjezba2/vjezba_2/backup/style.css
+ create mode 100644 OS-zadace/vjezba2/vjezba_2/data/.env
+ create mode 100644 OS-zadace/vjezba2/vjezba_2/data/script.js
+ create mode 100644 OS-zadace/vjezba2/vjezba_2/data/style.css
+ create mode 100644 OS-zadace/vjezba2/vjezba_2_history.txt
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ git push
+Username for 'https://github.com': amihatovic07
+Password for 'https://amihatovic07@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/amihatovic07/OS-Operacijski-Sustavi.git/'
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ git push
+Username for 'https://github.com': amihatovic07
+Password for 'https://amihatovic07@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/amihatovic07/OS-Operacijski-Sustavi.git/'
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ git push
+Username for 'https://github.com': amihatovic07
+Password for 'https://amihatovic07@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/amihatovic07/OS-Operacijski-Sustavi.git/'
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ git push
+Username for 'https://github.com': amihatovic07
+Password for 'https://amihatovic07@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/amihatovic07/OS-Operacijski-Sustavi.git/'
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ git push
+Username for 'https://github.com': amihatovic07
+Password for 'https://amihatovic07@github.com':
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (11/11), 4.78 KiB | 26.00 KiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amihatovic07/OS-Operacijski-Sustavi.git
+   772b071..f9e90c7  main -> main
+alexa@HP-Alex:/mnt/c/Users/alexa/vjezba1_git/OS-Operacijski-Sustavi/OS-zadace/vjezba2$ git push
